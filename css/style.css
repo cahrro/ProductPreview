@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root{
+    --CianoEscuro: hsl(158, 36%, 37%);
+    --Creme: hsl(30, 38%, 92%);
+    --AzulEscuro: hsl(212, 21%, 14%);
+    --AzulEscuroCinza: hsl(228, 12%, 48%);
+    
+    --Paragrafo: 'Montserrat', sans-serif;
+    --titulos: 'Fraunces', serif;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    min-width: 375px;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+
+section{
+    width: 50%;
+    height: 100%;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+
+.mobile{
+    display: none;
+}
